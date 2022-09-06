@@ -1,0 +1,143 @@
+body{
+    background-color: #27b2d1;
+}
+
+header h3{
+    font-size: 2.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #27b2d1;
+}
+
+header h3 span{
+    font-weight: 800;
+    color: #207ebc;
+}
+
+.formGizi h1{
+    color: #207ebc;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
+
+.formGizi h3{
+    color: #207ebc;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;   
+}
+
+.formGizi h4{
+    color: #207ebc;
+}
+
+/* .formGizi .container{
+    margin-left: 80px;
+} */
+
+/* .formGizi .container2{
+    margin-left: 150px;
+} */
+
+.formGizi #quest1 label{
+    cursor: pointer;
+}
+
+.formGizi #quest1 .genRadio{
+    display: none;
+}
+
+.formGizi .gen{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.genActive{
+    border: thin solid blue;
+    color: blue;
+    transition-duration: 200ms;
+}
+
+
+.formGizi p{
+    color: #207ebc;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    
+}
+
+.formGizi{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.macroNut{
+    margin-left: 3rem;
+}
+
+.macroNut span{
+    color: #207ebc;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.macroNut .gram{
+    font-size: 1.5rem;
+}
+
+#quest2 .form-check input,
+#quest3 .form-check input, 
+#quest4 .form-check input, 
+#quest5 .form-check input,
+#quest6 .form-check input{
+    display: none;
+}
+
+#quest2 .form-check,
+#quest3 .form-check, 
+#quest4 .form-check, 
+#quest5 .form-check,
+#quest6 .form-check{
+    padding: 0.5rem 0.3rem;
+    border: thin solid rgba(0, 102, 255, 0.432);
+    border-radius: 3px;
+}
+
+.formCheckActive{
+    background-color: #0d6efd;
+    color: white;
+    transition-duration: 200ms;
+}
+
+#quest2 .form-check label,
+#quest3 .form-check label, 
+#quest4 .form-check label, 
+#quest5 .form-check label,
+#quest6 .form-check label,
+#quest2 .form-check,
+#quest3 .form-check, 
+#quest4 .form-check, 
+#quest5 .form-check,
+#quest6 .form-check{
+    cursor: pointer;
+}
+
+#quest2, #quest3, #quest4, #quest5, #quest6, #rekGizi{
+    display: none;
+} 
+/* #quest2, #quest3, #quest4, #quest5, #quest6, #quest1{
+    display: none;
+}  */
