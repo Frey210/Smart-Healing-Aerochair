@@ -25,10 +25,12 @@ formLogin.addEventListener('submit', function(e){
         if(username == users[i].username && password == users[i].password){
                window.location.href = "./monitor.html";
                e.stopPropagation();
+            }
+            else{
+                invalid.style.visibility = 'visible';
+                e.stopPropagation();
+            }
         }
-        else{
-            invalid.style.visibility = 'visible';
-        }
-    }
-    e.preventDefault();
-});
+        e.stopPropagation();
+        e.preventDefault();
+    });
